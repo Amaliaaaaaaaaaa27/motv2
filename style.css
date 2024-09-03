@@ -1,0 +1,47 @@
+
+
+.Text>h1
+{
+    display: flex;
+    font-family: "Allura", cursive;
+    font-size:100px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.Text h2
+{
+    display: flex;
+    font-family: "Allura", cursive;
+    font-size: 50px;
+    justify-content: center;
+}
+.Text h3
+{
+    font-size:35px;
+    display: flex;
+    font-family: "Allura", cursive;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.img
+{
+  display: flex;
+ justify-content: center;
+}
+
+*{
+    background-color: RED;
+}
+
+@media(max-width: 600px)
+{
+    *{background-color:#d2cb0f;}
+    .img{font-size: small;}
+    .Text>h1{font-size:50px;}
+    .Text h2 {font-size: 20px;}
+    .Text h3 {font-size: 15px;}
+}
+
